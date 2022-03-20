@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+/* Home */
+/* Navbar */
+.nav-logo{
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 50px;
+}
+.ul-margin{
+    margin-right: 850px;
+}
+.li-spacing{
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+/* Inner */
+/* Row */
+/* Col */
+.card-body-height{
+    height: 480px;
+}
+span{
+    color: blue;
+}
+.info{
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+.info-bold{
+    font-weight: 700;
+}
+.button-pos{
+
+    position: relative;
+    left: 180px;
+    top: 100px;
+}
+.button-styling{
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    border: none
+  
+
+}
+/* Col */
+.splash{
+    background-image: url(../images/pic_for_profile-removebg-preview.png);
+    width: 500px;
+    height: 446px;
+    position: absolute;
+    top: 98px;;
+}
+.profile{
+    position: relative;
+    left: 92px;
+}
+/* Row */
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin: 30px;
+    list-style: none;
+}
+.icons{
+    margin-right: 10px;
+}
